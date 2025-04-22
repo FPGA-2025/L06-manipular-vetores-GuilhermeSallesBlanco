@@ -37,7 +37,7 @@ jobs:
       with:
         test-name: Teste 2
         setup-command: "./setup.sh"
-        command: "./run.sh"
+        command: "./run.sh 2"
         timeout: 10
         max-score: 1
     - name: Teste 3
